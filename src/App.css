@@ -1,0 +1,257 @@
+.navbar1 {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  background: #fff;
+}
+.navbar1 ol {
+  display: flex;
+  text-decoration: none solid rgb(95, 99, 104);
+  list-style: none;
+  width: 40%;
+  position: relative;
+  bottom: 55px;
+  margin-left: 165px;
+  gap: 40px;
+  color: #5f6368;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.4px;
+  margin-top: 20px;
+}
+
+.navbar1 ol li:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.demo {
+  text-decoration: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 505.85px;
+  align-items: center;
+  margin-left: 530px;
+  border-radius: 30px;
+  position: sticky;
+  top: 50px;
+  text-align: center;
+  z-index: 10000;
+  background-color: #fff;
+}
+.demo ul {
+  margin-top: 330px;
+  height: 56px;
+  display: flex;
+  margin-left: -20px;
+  gap: 10px;
+  width: 469.85px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  place-items: center;
+  font-size: 16px;
+  transition: all 3s;
+  text-decoration: none;
+}
+.demo ul li {
+  transition: all 0.8s;
+  height: 30px;
+  width: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  place-content: center;
+  border-radius: 50px;
+}
+.demo ul li:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  gap: 30px;
+  margin-top: 40px;
+  position: relative;
+}
+.main div {
+  height: 498px;
+}
+#container {
+  margin-top: 100px;
+  height: 964px;
+}
+#container1 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: -50px;
+  background: "#66aaf8";
+  overflow: hidden;
+}
+#up1 {
+  border-radius: 40px;
+  overflow: hidden;
+}
+#up1 div {
+  padding-left: 50px;
+  height: 300px;
+}
+#up1 img {
+  position: relative;
+  top: 5px;
+  border-radius: 0px 0px 40px 40px;
+}
+#update{
+  background-color: #f8eb66;
+  width: 600px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+#update div {
+  padding-left: 50px;
+  height: 300px;
+}
+#update div img {
+  margin-top: 170px;
+  margin-left: 350px;
+}
+
+#Yours {
+  height: 1707px;
+  text-align: center;
+}
+#dd1 {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  right: 300px;
+}
+.fourDivs {
+  width: 98%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: center;
+}
+.fourDivs div {
+  width: 80%;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap: 50px;
+}
+.fourDivs div div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 130px;
+}
+#one {
+  height: 560px;
+  width: 600px;
+  border-radius: 48px;
+}
+#i1:hover {
+  position: relative;
+  transform: scaleX(1.1);
+}
+
+#two {
+  height: 960px;
+  border-radius: 48px;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+#two p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+  bottom: 30px;
+  left: 60px;
+  cursor: pointer;
+}
+#two h1 {
+  position: relative;
+  bottom: 80px;
+  left: 60px;
+}
+
+#three,
+#four {
+  height: 960px;
+  position: relative;
+  right: 100px;
+  border-radius: 48px;
+  color: #fff;
+}
+#three {
+  background-color: #a3abeb;
+  width: 600px;
+  cursor: pointer;
+}
+#three p {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  bottom: 30px;
+  left: 60px;
+  cursor: pointer;
+}
+#three h1 {
+  position: relative;
+  bottom: 80px;
+  left: 60px;
+}
+#four {
+  overflow: hidden;
+  height: 1200px;
+  background-color: #3347f2;
+  color: #fff;
+}
+#four p {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: 180px;
+  left: 60px;
+  cursor: pointer;
+}
+#four h1 {
+  position: relative;
+  top: 110px;
+  left: 60px;
+}
+#four img {
+  position: relative;
+  bottom: 0px;
+  height: 500px;
+}
+#Fast {
+  height: 500px;
+  margin-top: 0px;
+  height: 1000px;
+}
+#fast1 {
+  text-align: center;
+}
+
+.active {
+  background-color: #ddd;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100px;
+  height: 35px;
+  padding-top: 4px;
+}
